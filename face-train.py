@@ -13,16 +13,6 @@ current_id=0
 label_ids={}
 y_labels = []
 x_train = []
-#--------------------------------------------------------------------------------------
- #importing google_images_download module 
-"""from google_images_download import google_images_download 
-
- #creating object 
-response = google_images_download.googleimagesdownload() 
-queries =['sidhu moose wala' ] 
-for query in queries: 
-    arguments = {"keywords": query,"format": "jpg","limit":90,"print_urls":True, "size": "medium","aspect_ratio": "panoramic","output_directory":'C:\Py\images'} 
-    paths = response.download(arguments) """
 #----------------------------------------------------------------------------------------
 for root, dirs, files in os.walk(image_dir):
     for file in files:
